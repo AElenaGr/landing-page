@@ -7964,6 +7964,7 @@ textarea.form-control-lg {
 
 .fw-bolder {
   font-weight: bolder !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .lh-1 {
@@ -10838,8 +10839,15 @@ section {
   padding-bottom: 9rem;
 }
 
+.carousel{
+  margin-top: .5em;
+}
+.carousel-image {
+  max-height: 300px; /* Cambiar el tamaño de acuerdo a tus preferencias */
+  width: auto;
+}
 
-#carouselExampleControls img {
-  max-height: 300px; /* Altura máxima deseada */
-  width: auto; /* Esto asegura que la imagen mantenga su relación de aspecto */
+#about {
+  border: 10px solid lightcyan; /* Define el borde con un grosor de 2px y color azul */
+  padding: 5px; /* Agrega un espacio interno alrededor del contenido */
 }
