@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="juego.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¡Bienvenido al Juego!</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <h2>¿Cuál es la capital de Francia?</h2>
+                <input type="radio" id="q1a" name="q1" value="Paris">
+                <label for="q1a">Paris</label><br>
+                <input type="radio" id="q1b" name="q1" value="Londres">
+                <label for="q1b">Londres</label><br>
+                <input type="radio" id="q1c" name="q1" value="Madrid">
+                <label for="q1c">Madrid</label><br>
+                <input type="radio" id="q1d" name="q1" value="Roma">
+                <label for="q1d">Roma</label><br>
+            </div>
+            <div class="question">
+                <h2>¿Cuál es el río más largo del mundo?</h2>
+                <input type="radio" id="q2a" name="q2" value="Amazonas">
+                <label for="q2a">Amazonas</label><br>
+                <input type="radio" id="q2b" name="q2" value="Nilo">
+                <label for="q2b">Nilo</label><br>
+                <input type="radio" id="q2c" name="q2" value="Yangtsé">
+                <label for="q2c">Yangtsé</label><br>
+                <input type="radio" id="q2d" name="q2" value="Misisipi">
+                <label for="q2d">Misisipi</label><br>
+            </div>
+            <!-- Puedes añadir más preguntas aquí -->
+            <button type="submit">Enviar Respuestas</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <script src="juego.js"></script>
+</body>
+</html>
